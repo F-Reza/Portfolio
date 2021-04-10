@@ -1,0 +1,612 @@
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+*{margin:0;padding:0}
+
+body{
+	background-color:gray;
+}
+#wrapper{
+	width:71%;
+	margin:0 auto;
+	position:relative;
+}
+
+#content_wrapper{
+	height:;
+	background:#d7D9DA;
+}
+
+
+#header{
+	background:#8C8C8C;
+	height:35px;
+}
+
+#header p{
+	color:#fff;
+	margin-left:35px;
+}
+
+#social{
+	background-color:#000080;
+	height:35px;
+}
+#social a img{
+	width:25px;
+	height:25px;
+	float:right;
+	margin-right:30px;
+	margin-top:3px;
+	display:block;
+	clear:left;
+}
+
+#social p{
+	float:left;
+	margin-left:30px;
+	padding:10px;
+	display:block;
+}
+
+
+
+#nav{
+	background:#0082e6;
+	float:right;
+	height:78.5px;
+	margin-bottom:5px;
+
+}
+
+
+
+
+#pro5 img{
+	width:300px;
+	height:200px;
+	float:left;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.won p{
+	background:#0082e6;
+	width:100%;
+	vertical-align:middle;
+	text-align:left;
+	font-size:40px;
+	color:#fff;
+	position:center;
+	height:120px;
+}
+
+
+#section{}
+#section{
+	height:200px;
+	background:#444556;
+	margin-bottom:5PX;
+}
+
+
+
+
+
+#sidebar1{
+	float:left;
+	width:100%;
+	height:;
+	background:;
+	margin:10px;
+}
+
+
+
+#pro5 img{
+	width:255px;
+	clear:left;
+	border-radius: 110px 50px;
+}
+#pro{
+	background-color:;
+}
+
+
+#sidebar-2{
+	float:right;
+	width:45%;
+	height:auto;
+	background:#FFFFFF;
+	margin-right:10px;
+}
+#aside2{
+	
+}
+#aside2{}
+#aside2{}
+
+
+
+.profile1{
+	width:400px;
+	height:45px;
+	color:#000;
+	background-color:#0636bf;
+	float:left;
+	margin:auto;
+	margin-bottom:5px;
+	text-align: center;
+	padding:8px 0 0 0;
+	border-radius:0 0 100px 100px;
+	border-bottom:2px black solid;
+	display:;
+}
+
+
+.heading{
+	width:320px;
+	height:25px;
+	color:#fff;
+	background-color:#573fe0;
+	float:left;
+	text-align:center;
+	padding:8px 0 0 0;
+	margin-bottom:4px;
+	border-radius:0 100px 0 0;
+	display:block;
+	position:relative;
+}
+
+#circle-1{
+	width:30px;
+	height:30px;
+	margin-left:px;
+	border-radius:100px;
+	margin-top:1px;
+	animation-name:anmt-2;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+	display:inline;
+	position:absolute;
+	right:30px;
+	top:0;
+}
+@keyframes anmt-2 {
+	from{background-color:red}
+	to{background-color:#00FF00}
+} 
+
+
+
+
+#showcase{
+	width:95.7%;
+	height:auto;
+	color:#000;
+	background-color:#00bf80;
+	border:1px red solid;
+	margin-bottom:30px;
+	padding:10px;
+	float:left;
+	display;block;
+}
+
+
+
+
+#content_main{
+	width:100%;
+	background:;
+	float:left;
+}
+
+
+#footer{
+	height:50px;
+	width:100%;
+	background:#000;
+	position:absolute;
+	margin-bottom:0;
+	float:left;
+}
+#footer p{
+	color:#fff;
+	text-align:center;
+	padding:15px 20px;
+}
+#footer p a{
+	text-decoration:none;
+	color:#3333FF;
+}
+#footer p a:hover {
+	color:red;
+}
+
+
+
+---------------------------
+
+/* Table */
+
+table caption{
+	background:;
+}
+
+table{
+	width:100%;
+	text-align:center;
+	border-collapse:;
+}
+table, th, td{
+	border-collapse:collapse;
+	border:2px solid #99999c;
+	line-height:px;
+	background:;
+}
+.thead{
+	background-color:royalblue;
+	line-height:30px;
+}
+table, tr last-child{
+	margin-bottom:10px;
+}
+
+
+
+
+---------------------
+/* Navigation*/
+
+#nav{
+	background-color:#000080;
+	height:38.3px;
+}	
+
+#nav ul li{
+	float:left;
+	margin-top:20px;
+	border-left:1px solid #00a030;
+	border-right:1px solid #000080;
+	background-color:yellow;
+	list-style-type:none;
+	z-index:1000;
+}
+
+
+#nav ul{
+	margin-left:20px;
+}
+#nav ul li:first-child{
+	border-left:none;
+	margin-left:px;
+}
+#nav ul li:last-child{
+	border-right:none;
+	margin-right:20px;
+}
+#nav ul li a{
+	text-decoration:none;
+	color:#000080;
+	padding:10px 20px;
+	transition:all 0.2s ease; 
+	display:block;
+}
+#nav ul li a:hover{
+	background:green;
+	color:#fff;
+}
+
+
+/* Dropdown*/
+#nav ul li{
+	position:relative;
+}
+#nav ul li ul{
+	position:absolute;
+	left:-99999px;
+}
+#nav ul li:hover ul{
+	left:0;
+}
+
+#nav ul li ul li{
+	left:20px;
+	width:180px;
+	border-left:none;
+	border-right:none;
+	border-top:0.5px solid #00a030;
+	border-bottom:.5px solid #000080;
+	z-index:1000;
+	margin-top:0px;
+}
+#nav ul li ul li:last-child{
+	border-bottom:none;
+}
+
+
+
+--------------------------
+
+/* Making 3 column */
+.clm{
+	width:100%;
+	display:block;
+}
+
+
+
+.box img{
+	margin-top:10px;
+	width:100%;
+	height:150px;
+}
+.box{
+	width:30.50%;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+.box h2{
+	color:#000;
+	padding:10px;
+	background-color:;
+}
+.box p{
+	text-align:justify;
+	margin-bottom:10px;
+}
+.box a{
+	text-decoration:none;
+	background-color:blue;
+	color:white;
+	display:block;
+	text-align:center;
+	padding:7px 0;
+	margin-bottom:40px;
+	
+	transition:all .5s ease;
+}
+ .box a:hover{
+	 background:#000;
+	 color:#fff;
+}
+.box img:hover{
+	width:99%;
+	height:150px;
+}
+
+------------------------------------------
+
+
+.wrap{
+	width:400px;
+	height:200px;
+	color:white;
+	background-color:red;
+	border:1px red solid;
+	margin-bottom:10px;
+	padding:10px;
+	float:left;
+}
+
+#contact{
+  width:80%;
+  font-size:20px;
+  display:block;
+}
+#contact input{
+  width:80%;
+  height:30px;
+  padding:2px;
+  font-size:15px;
+}
+#contact textarea{
+	width:80%;
+	height:130px;
+	padding:2px;
+	font-size:15px;
+}
+
+.send{
+	width:100px;
+	height:40px;
+	background:black;
+	color:white;
+	border:0;
+	padding-left: 20px;
+	padding-right:20px;
+	margin-top:5px;
+	margin-bottom:30px;
+	transition:all 0.2s ease; 
+}
+.send:hover{
+	background:blue;
+	color:;
+	border-radius:5px;
+}
+
+
+#wrao{
+	
+}
+
+
+-------------------------------------
+/*--sticky--*/
+#h{
+	width:100%;
+	height:400px;
+	background:gray;
+	color:white;
+	float:left;
+}
+
+#h dl{
+	margin:0;
+	padding:24px 0 0 0;
+}
+#h dt{
+	width: 100%;
+	text-align:center;
+	background:royalblue;
+	border-bottom:2px solid black;
+	border-top:1px solid black;
+	color:white;
+	margin:0px;
+	padding:2px 0 0 12px;
+	position:sticky;
+	top:-1px;
+	font-size:25px;
+	
+}
+
+#h dd{
+	font:bold 20px/45px ;
+	margin:0;
+	background:gray;
+	padding:0 0 0 15px;
+	white-space:nowrap;
+	text-align:;
+	margin:10px;
+	line-height:30px;
+}
+
+
+#h dd + dd {
+	border-top:3px solid white;
+}
+
+
+/* This is our Comment for overflow */
+.div5{
+	position:center;
+	border:4px solid blue;
+	width:97%;
+	height:400px;
+	overflow:hidden;
+	overflow:scroll;
+	margin-top:30px;
+	margin-left:10px;
+	margin-bottom:40px;
+	display:block;
+}
+
+
+
+
+.life{
+	float:right;
+	width:60%;
+	vertical-align:top;
+	font-size:30px;
+}
+.con{
+	float:right;
+	width:100px;
+}
+.con button{
+	display:block;
+	float:right;
+	width:120px;
+	height:50px;
+	background:black;
+	color:white;
+	margin:4px;
+	transition:all 0.5s ease; 
+}
+.con button:hover{
+	color:green;
+	background:yellow;
+	border-radius:15px;
+	transition:all 0.2s ease; 
+	font-size:20px;
+}
+
+
+
+
+
+#showcase-1{
+	width:95.7%;
+	height:auto;
+	color:white;
+	background-color:#552777;
+	border:px red solid;
+	padding:10px;
+	margin:10px;
+	margin-bottom:0;
+	
+}
+
+#showcase-2{
+	width:95.7%;
+	height:auto;
+	color:white;
+	background-color:#991345;
+	border:1px red solid;
+	padding:10px;
+	margin:10px;
+	float:left;
+}
+
+
+#fixed{
+	text-decoration:none;
+	list-style-type:none;
+	
+}
+#fixed{
+	width:30px;
+	height:35px;
+	text-align:center;
+	padding:10px;
+	color:#fff;
+	background:blue;
+	position:fixed;
+	right:140px;
+	bottom:30px;
+	border-radius:10px;
+}
+#fixed:hover{
+	color:#000;
+	background:yellow;
+	border-radius:15px;
+	transition:all 0.5s ease; 
+	font-size:px;
+}
+
+
+
+
+#call img{
+	display:block;
+	width:75px;
+	height:30px;
+	float:right;
+	margin:5px;
+	border-radius:px;
+}
+#call img:first-child{
+	margin-top:50px;
+}
+
+
+#call img:hover{
+	border-radius:40px;
+	padding:1px;
+}
+
+#
+call a{
+	display:block;
+	width:75px;
+	height:px;
+	float:right;
+	margin:5px;
+}
+
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+

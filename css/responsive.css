@@ -1,0 +1,584 @@
+/*		Default Layout: 960px. 
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+-------------------------------------------------------------------------------
+*/
+#wrapper{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+.img{
+	max-width:100%;
+	height:auto;
+}
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Inherits styles from: Default Layout.
+---------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+#wrapper{
+	width:95%;
+}
+.profile{
+	width:65%;
+	margin-right:2%;
+}
+.won{
+	width:100%;
+	font-size:px;
+	
+}
+
+#nav {
+    background: #0082e6;
+    float: right;
+    height: 38.5px;
+    width: 950%;
+    margin-top: px;
+    margin-right: px;
+    margin-bottom: 5px;
+    padding: 5px 5px 0 0;
+	position:center;
+}
+
+
+#nav{
+	background-color:#0b051f;
+	height:43.3px;
+	float:right;
+	width: 99.44%;
+}
+#nav ul li{
+	float:;
+	margin-top:0px;
+}
+#call img:first-child{
+	margin-top:10px;
+}
+
+
+
+
+
+#showcase {
+    width: 95.7%;
+    height: auto;
+}
+
+#social p {
+    display: none;
+}
+
+
+#fixed{
+	width:30px;
+	height:35px;
+	right:40px;
+	bottom:0;
+}
+
+	
+}
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 580px.
+		Inherits styles from: Default Layout, Mobile Layout.
+---------------------------------------------------------*/
+
+@media only screen and (min-width: 580px) and (max-width: 767px) {
+#wrapper{
+	width:100%;
+}
+.profile{
+	width:100%;
+	margin-right:2%;
+}
+.profile1 {
+	width: 100%;
+}
+.won p{
+	width:;
+	font-size:px;
+	
+}
+
+#nav {
+    background: #0082e6;
+    float: right;
+    height: 38.5px;
+    width: 950%;
+    margin-top: px;
+    margin-right: px;
+    margin-bottom: 5px;
+    padding: 5px 5px 0 0;
+	position:center;
+}
+
+
+#nav{
+	background-color:#0b051f;
+	height:43.3px;
+	float:right;
+	width: 99.44%;
+}
+#nav ul li{
+	float:;
+	margin-top:0px;
+}
+#call img:first-child{
+	display: none;
+}
+
+
+#showcase {
+    width: 93.7%;
+    height: auto;
+}
+
+
+.box{
+	width:45.8%;
+	flex-direction:row;
+	float:;
+}
+
+#fixed{
+	width:30px;
+	height:35px;
+	right:40px;
+	bottom:0;
+}	
+
+
+}
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Inherits styles from: Default Layout, Mobile Layout.
+---------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 579px) {
+	
+#wrapper{
+	width:100%;
+}
+.profile{
+	width:100%;
+	margin-right:2%;
+}
+.profile1 {
+	width: 100%;
+}
+
+
+#nav {
+    background: #0082e6;
+    float: right;
+    height: 38.5px;
+    width: 950%;
+    margin-top: px;
+    margin-right: px;
+    margin-bottom: 5px;
+    padding: 5px 5px 0 0;
+	position:center;
+}
+
+
+#nav{
+	background-color:#0b051f;
+	height:43.3px;
+	float:right;
+	width: 99.44%;
+}
+#nav ul li{
+	float:;
+	margin-top:0px;
+}
+#call img:first-child{
+	display: none;
+}
+
+
+#showcase {
+    width: 91%;
+    height: auto;
+}
+
+#showcase-1 {
+    width: 93%;
+    height: auto;
+}
+#showcase-2{
+    width: 93%;
+    height: auto;
+}
+
+
+.div5{
+	width:95%;
+}
+
+
+
+.box{
+	width:92%;
+	flex-direction:row;
+	float:;
+}
+
+.box img {
+    margin-top: 10px;
+    width: 100%;
+    height: 225px;
+}
+
+
+
+
+#fixed{
+	width:30px;
+	height:35px;
+	right:40px;
+	bottom:0;
+}	
+.won {
+	width:100%;
+}
+.won span{
+	right:5px;
+	bottom:0;
+	width:100%;
+	font-size:34px;
+}
+
+.life{
+	float:left;
+	margin-top:10px;
+	margin-bottom:20px;
+	width:96%;
+	height:px;
+	padding:10px;
+	background:#8181bb;
+	font-size:25px;
+}
+
+#social p {
+    display: none;
+}
+	
+	
+}
+	
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 480px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+*/
+@media only screen and (min-width: 400px) and (max-width: 479px) {
+
+
+#wrapper{
+	width:100%;
+}
+
+.profile1 {
+	width: 100%;
+}
+
+
+#nav {
+    background: #0082e6;
+    float: right;
+    height: 38.5px;
+    width: 950%;
+    margin-top: px;
+    margin-right: px;
+    margin-bottom: 5px;
+    padding: 5px 5px 0 0;
+	position:center;
+}
+
+#nav{
+	background-color:#0b051f;
+	height:43.3px;
+	float:right;
+	width: 99.44%;
+}
+#nav ul li{
+	float:;
+	margin-top:0px;
+}
+#call img:first-child{
+	display: none;
+}
+
+
+#showcase {
+    width: 91%;
+    height: auto;
+}
+
+#showcase-1 {
+    width: 92%;
+    height: auto;
+}
+#showcase-2{
+    width: 91%;
+    height: auto;
+}
+
+
+.box{
+	width:92%;
+	margin-left:18px;
+}
+.box img {
+    margin-top: 10px;
+    width: 100%;
+    height: 235px;
+}
+
+
+
+
+	
+.won {
+	width:100%;
+}
+.won span{
+	right:5px;
+	bottom:0;
+	width:100%;
+	font-size:23px;
+
+}
+
+.div5{
+	width:94.5%;
+}
+
+.life{
+	float:left;
+	margin-top:10px;
+	margin-bottom:20px;
+	width:95%;
+	height:px;
+	padding:10px;
+	background:#8181bb;
+	font-size:25px;
+}
+
+#social p {
+    display: none;
+}
+
+
+
+#fixed{
+	width:30px;
+	height:35px;
+	right:40px;
+	bottom:0;
+}	
+	
+
+
+}
+	
+
+/*		Mobile Layout: 320px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+*/
+@media only screen and (max-width: 399px) {
+	
+	@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+#wrapper{
+	width:100%;
+}
+
+.profile1 {
+	width: 100%;
+}
+
+
+#nav {
+    background: #0082e6;
+    float: right;
+    height: 38.5px;
+    width: 950%;
+    margin-top: px;
+    margin-right: px;
+    margin-bottom: 5px;
+    padding: 5px 5px 0 0;
+	position:center;
+}
+
+#nav{
+	display:none;
+}
+
+
+#call img:first-child{
+	display: none;
+}
+
+
+#showcase {
+    width: 88%;
+    height: auto;
+}
+
+#showcase-1 {
+    width: 88%;
+    height: auto;
+}
+#showcase-2{
+    width: 88%;
+    height: auto;
+}
+
+
+.box{
+	width:92%;
+	margin-left:18px;
+}
+	
+.won {
+	width:100%;
+}
+.won span{
+	display:none;
+
+}
+
+
+
+.div5{
+	width:92%;
+}
+
+.life{
+	float:left;
+	margin-top:10px;
+	margin-bottom:20px;
+	width:95%;
+	height:px;
+	padding:10px;
+	background:#8181bb;
+	font-size:20px;
+}
+
+#social p {
+    display: none;
+}
+
+.heading {
+    width: 75%;
+	font-size:11px;
+}
+
+
+#contact{
+	width:100%;
+}
+#contact input{
+  width:98%;
+}
+#contact textarea{
+	width:98%;
+
+}
+.send{
+	margin-top:15px;
+}
+
+
+.con{
+	display:none;
+}
+
+
+.thead {
+    line-height: 24px;
+}
+table, th, td {
+    border: 1px solid #d7d9da;
+    font-size: 14px;
+}
+
+/*
+#pro5 img {
+    width: 94%;
+    height: 247px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+	border-radius: 0;
+}
+*/
+
+
+
+
+
+#fixed{
+	width:20px;
+	height:28px;
+	right:20px;
+	bottom:1;
+}	
+	
+
+
+}
+	
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone.
+-----------------------------------------------    */
+
+
+/*---------------------
+Authorized::Forhad Reza
+-----------*/	
+	
+	
+}
