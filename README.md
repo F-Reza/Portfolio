@@ -1,9 +1,9 @@
 # Portfolio
 Portfolio
 
-***Live Preview https://f-reza.github.io/Portfolio/
+**Live Preview https://f-reza.github.io/Portfolio/
 
-*Repository https://github.com/F-Reza/Portfolio/
+***Repository https://github.com/F-Reza/Portfolio/
 
 ##################################################################################################
 
